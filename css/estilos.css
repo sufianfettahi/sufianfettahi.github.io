@@ -1,0 +1,106 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css?family=Boogaloo');
+@import "https://fonts.googleapis.com/css?family=Rancho&effect=fire-animation"; /*class: font-effect-fire-animation*/
+@import "https://fonts.googleapis.com/css?family=Rancho&effect=grass"; /*class: font-effect-grass*/
+@import "https://fonts.googleapis.com/css?family=Rancho&effect=3d"; /*class: font-effect-3d*/
+
+body{
+    font-family: 'Boogaloo', cursive;
+    background-color: cyan;
+    text-align: center;
+  border: red 2px solid;
+  margin: 40px 40px 90px 90px;
+}
+
+.textDiv{
+	text-align:left;
+	 border: red 2px solid;
+    border-radius: 15px;
+    padding: 1% 0.5%;
+    margin: 1% auto;
+}
+
+li{
+	font-size:26;
+}
+
+pre{
+	font-family: 'Candara', cursive;
+	color: blue;
+}
+
+div {
+  border-top-color: red;
+  border-right-color: red;
+  border-bottom-color: red;
+  border-left-color: red;
+  
+  border-top-width: 10px;
+  border-right-width: 1em;
+  border-bottom-width: thick;
+  border-left-width: thin;
+}
+
+.pie{
+	font-family: 'Monaco', cursive;
+	background-color:black;
+	color: red;
+	height:109;
+	font-size:17;
+}
+
+.menu{
+	list-style: none;
+	align: center;
+	padding: 0;
+	background:#092327;
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+}
+
+.menu li a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	display: block;
+}
+
+.menu li{
+	display: inline-block;
+	text-align: center;
+	
+}
+
+.menu li a:hover{
+	background: red;
+}
+
+#caja-video{
+    display: flex;
+    border-radius: 15px;
+    padding: 1% 0.5%;
+    margin: 1% auto;
+}
+
+video{
+    width: 60%;
+    height: 95%;
+}
+
+button{
+	color:blue;
+	background-color:pink;
+    border-radius: 15px;
+    height: 40px;
+    width: 100px;
+    margin:1% auto;
+    padding: 0 0 3% 0;
+}
+
+#caja-control{
+    background-color: red;
+    display: flex;
+    align-content: space-between;
+}

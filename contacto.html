@@ -1,0 +1,79 @@
+<html>
+	<head>
+		<title>Pratica APP WEB 2</title>
+		<link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+		<script src="js/scripts.js" type="text/javascript"></script>
+		<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+	</head>
+	
+	<body onload="iniciar();">
+	    <a href="INDEX.html"> <img src="imagenes/imagen1.png" width="400" height="200"></a>
+		<div id="google_translate_element" class="google"></div>
+
+		<h1 align="center">Esta es una pagina de noticias de futbol. </h1><br>
+		
+		<ul class="menu">
+			<li><a href="INDEX.html">INICIO</a></li>
+			<li><a href="quienessomos.html">QUIENES SOMOS</a></li>
+			<li><a href="servicios.html">SERVICIOS</a></li>
+			<li><a href="dondeestamos.html">DONDE ESTAMOS</li>
+			<li><a href="contacto.html">CONTACTO</a></li>
+		</ul>
+		
+		
+		<div id="caja">
+			<form id="miFormulario" method="get">
+  <p>Nombre: <input type="text" name="nombre" size="40"></p>
+  <p>Año de nacimiento: <input type="number" name="nacido"></p>
+  <p>Sexo:
+    <input type="radio" name="hm" value="h"> Hombre
+    <input type="radio" name="hm" value="m"> Mujer
+  </p><br>
+  
+  <p>¿Cómo has llegado a esta pagina?
+  <select name="medio">
+  <option>Me la han aconsejado.</option>
+
+  <option>De pura casualidad.</option>
+
+  <option>Soy aficionado de uno de los equipos.</option>
+</select>
+  </p><br>
+  
+  <p>¿Qué buscas? Sólo puedes marcar 1: <br>
+  <input type="radio" name="accion" value="na" /> Información sobre mi equipo.
+  <input type="radio" name="accion" value="al" /> Busco las ultimas noticias.
+  <input type="radio" name="accion" value="crr" /> Resultados.
+  <input type="radio" name="accion" value="sal" /> Soy aficionado a las paginas hechas con HTML y CSS.
+  </p><br>
+  
+  <p>¿Te gusta mas el futbol o el baloncesto? Puedes marcar ambas: <br>
+  <input type="checkbox" name="hambre" value="hb" /> Futbol
+  <input type="checkbox" name="sueño" value="sñ" /> Baloncesto
+  </p><br>
+  
+  <p>
+  <textarea name="comentarios" rows="10" cols="40">Escribe aquí tus sugerencias...</textarea>
+  </p><br>
+  
+  <p>
+    <input type="submit" value="Enviar" onclick="enviado();">
+    <input type="reset" value="Borrar" onclick="borrado();">
+  </p>
+</form>
+<p>TAMBIEN puede contactar con nosotros al email: elfettahi_elfettahi.soufiane@tiernoparla.es</p>
+		</div>
+		
+		<div class="pie">
+		<p>Hecho por Soufiane El Fettahi para la 1 ev de 2ºDAM, 2020/2021.</p>
+		<a href="https://www.tiernoparla.es/" Target="_blank"><img src="imagenes/logotipo.png" width="200" height="60" align="left"></a>
+		<a href="https://www.tiernoparla.es/" Target="_blank"><img src="imagenes/logotipo.png" width="200" height="60" align="right"></a>
+		<p>Para hacer esta pagina se ha utlizado HTML, CSS y JAVASCRIPT.</p>
+		</div>
+	</body>
+
+
+
+
+
+</html>
