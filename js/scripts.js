@@ -31,9 +31,9 @@ function iniciar() {
     cajaVideo = getById(ID_CAJA_VIDEO);
 	
 	alert("Soufiane El Fettahi")
-	alert(random());
+	//alert(random());
 	var tiempo = new Date();
-	alert(tiempo.getHours()+":"+tiempo.getMinutes()+":"+tiempo.getSeconds());
+	//alert(tiempo.getHours()+":"+tiempo.getMinutes()+":"+tiempo.getSeconds());
 }
 
 function getById(element_id) {
