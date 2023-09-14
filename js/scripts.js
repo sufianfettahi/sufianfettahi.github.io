@@ -11,11 +11,6 @@ function borrado()
 	alert("HAS BORRADO TODO.");
 }
 
-function random()
-{
-		return Math.random();
-}
-
 function enviado()
 {
 	alert("SU CONSULTA HA SIDO ENVIADA CON EXITO, en breve rebira una respuesta. GRACIAS!");
@@ -29,11 +24,7 @@ function limpiarFormulario() {
 function iniciar() {
     reproduccion = getById(ID_VIDEO);
     cajaVideo = getById(ID_CAJA_VIDEO);
-	
-	alert("Soufiane El Fettahi")
-	//alert(random());
-	var tiempo = new Date();
-	//alert(tiempo.getHours()+":"+tiempo.getMinutes()+":"+tiempo.getSeconds());
+	alert("Soufiane El Fettahi, 2ºDAM.");
 }
 
 function getById(element_id) {
